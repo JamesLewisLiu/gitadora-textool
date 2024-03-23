@@ -4,6 +4,7 @@ Convert archives of tex images.
 usage: gitadora-texbintool.exe [--no-rect/--nr] [--no-split/--ns] input_filename
 --no-rect/--nr: Don't create a rect table (Some games like Jubeat don't use the rect table)
 --no-split/--ns: Don't split images into separate images if they use the rect table
+-u
 ```
 
 If you specify a .bin file as the `input_filename` then the tool will extract the textures into a folder with the same name as the .bin file.
